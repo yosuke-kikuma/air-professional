@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.navbar{
+  padding-left:120px;
+}
+
+nav .head-left{
+  font-size: 20px;
+}
+
+nav .foot-left a{
+  font-size: 30px;
+  color:#00BFFF;
+  font-weight: 700;
+}
+
+.nav-right{
+ margin-right: 120px;
+}
+
+.nav-item{
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+#main_visual img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 550px;
+  object-fit: fill;
+}
+
+
+.article-title{
+  font-weight:700;
+}
+
+.article-body{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+}
+
+.article-list{
+  font-size: 25px;
+  text-align: left;
+}
+
+.img-link img{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+
+.footer-top{
+  width: 100%;
+  background-color: #C2EEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 15px;
+}
+
+footer .item1{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+footer .item2{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid black;
+}
+
+.footer-bottom{
+  width: 100%;
+  background-color: #BAD3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 10px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.footer-profile-body{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  justify-content:center;
+}
+
+.footer-profile-inner{
+    height: 250px;
+    width: 50%;
+    
+}
+
+th{
+  background-color: ThreeDHighlight;
+}
+
+.airline-title{
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    border: solid 2px #dadada;
+    display:flex;
+}
+
+.airline-image img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.airline-name{
+ padding-left: 30px;
+ padding-top: 15px; 
+ font-size: 20px;
+ font-weight: 800;
+}
+
+
+.airline-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px; 
+    border: solid 2px #dadada;
+    border-radius: 3px;
+}
+
+
+.form{
+  margin-bottom: 80px;
+}
