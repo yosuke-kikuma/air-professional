@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Micropost extends Model
 {
     protected $fillable = [
-        'name', 'content',
+       'name', 'content',
     ];
     
     public function airline()
