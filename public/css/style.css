@@ -5,21 +5,21 @@
 }
 
 
-nav .head-left{
+nav .head_left{
   font-size: 20px;
 }
 
-nav .foot-left a{
+nav .foot_left a{
   font-size: 30px;
   color:#00BFFF;
   font-weight: 700;
 }
 
-.nav-right{
+.nav_right{
  margin-right: 200px;
 }
 
-.nav-item{
+.nav_item{
   margin-right: 10px;
   font-size: 15px;
 }
@@ -33,11 +33,11 @@ nav .foot-left a{
 }
 
 
-.article-title{
+.main-article_title{
   font-weight:700;
 }
 
-.article-body{
+.main-article_body{
   margin-top: 20px;
   margin-bottom: 50px;
   padding-top: 20px;
@@ -45,7 +45,7 @@ nav .foot-left a{
   border: 2px solid black;
 }
 
-.article-list{
+.main-article_list{
   font-size: 25px;
   text-align: left;
 }
@@ -58,7 +58,7 @@ nav .foot-left a{
   object-fit: fill;
 }
 
-.footer-top{
+.footer_top{
   width: 100%;
   background-color: #C2EEFF;
   display: flex;
@@ -81,7 +81,7 @@ footer .item2{
   border-right: 1px solid black;
 }
 
-.footer-bottom{
+.footer_bottom{
   width: 100%;
   background-color: #BAD3FF;
   display: flex;
@@ -91,28 +91,25 @@ footer .item2{
   font-size: 10px;
 }
 
-.copyright {
-  font-size: 10px;
-}
-
-.footer-profile-body{
+.footer_profile_body{
   margin-top: 50px;
   margin-bottom: 80px;
   justify-content:center;
 }
 
-.footer-profile-inner{
+.footer_profile_inner{
     height: 250px;
     width: 50%;
     
 }
 
+
+
 th{
   background-color: ThreeDHighlight;
 }
 
-
-.airline-title{
+.main_airline_title{
     margin-top: 50px;
     margin-left: 80px;
     padding-top: 5px;
@@ -123,13 +120,13 @@ th{
     justify-content: center;
 }
 
-.airline-image img{
+.main_airline_image img{
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-.airline-name{
+.main_airline_name{
  padding-left: 30px;
  padding-top: 15px; 
  font-size: 20px;
@@ -137,14 +134,13 @@ th{
 }
 
 
-.airline-body{
+.main_airline_body{
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 50px; 
     border: solid 2px #dadada;
     border-radius: 3px;
 }
-
 
 .form{
   margin-bottom: 80px;

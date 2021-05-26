@@ -6,8 +6,8 @@
     <h1>会社概要</h1>
 </div>
 
-<div class="footer-profile-body row">
-    <table border="1" class="footer-profile-inner col-sm-6 table-sm">
+<div class="footer_profile_body row">
+    <table border="1" class="footer_profile_inner col-sm-6 table-sm">
         <tbody>
             <tr>
                 <th class="text-center">会社名</th>

@@ -7,7 +7,7 @@
                 <img src="images/mainvisual.jpg" alt="main_visual">
             </div>
             <div id="wrappper">
-                <div class="article-title">
+                <div class="main_article_title">
                     <h1>航空業界全体のニュース</h> 
                 </div>    
                 <h2>最新のニュース一覧（増減便・新規就航/運休・セールス運賃・コロナ情報 等）</h>

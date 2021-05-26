@@ -4,17 +4,17 @@
     <div class="row row-cols-2">
         @foreach ($airlines as $airline)
             <div class="col-sm-6">
-                <div class="airline-title">
-                    <span class="airline-image">
+                <div class="main_airline_title">
+                    <span class="main_airline_image">
                         <img src="{{" " . $airline->photo}}"  alt="{{$airline->photo}}">  
                     </span>
-                    <div class="airline-name">
+                    <div class="main_airline_name">
                         <p>{{$airline->name}}</p>
                         <p>{{$airline->name_en}}</p>
                     </div>
                 </div>
           
-                <div class="airline-body">
+                <div class="main_airline_body">
                     <ul class="list-unstyled mr-2">
                     @foreach ($airline->microposts()->orderBy('created_at', 'desc')->take(10)->get() as $micropost)
                     <li class="media mb-3">  
