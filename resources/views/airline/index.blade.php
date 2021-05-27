@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="text-center">
+    <h1>みんなの掲示板</h1>
+    </div>
     <div class="row row-cols-2">
         @foreach ($airlines as $airline)
             <div class="col-sm-6">
@@ -42,5 +45,5 @@
                 </div>
             </div>
         @endforeach
-        </div>
+    </div>
 @endsection

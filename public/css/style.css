@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+header{
+  min-width: 960px;
+}
+
 .navbar{
-  padding-left:200px;
+  padding-left:100px;
 }
 
 
@@ -16,12 +20,16 @@ nav .foot_left a{
 }
 
 .nav_right{
- margin-right: 200px;
+ margin-right: 100px;
 }
 
 .nav_item{
   margin-right: 10px;
   font-size: 15px;
+}
+
+.container{
+  min-width: 960px;
 }
 
 #main_visual img{
@@ -46,7 +54,7 @@ nav .foot_left a{
 }
 
 .main-article_list{
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -56,6 +64,10 @@ nav .foot_left a{
   width: 100%;
   height: 400px;
   object-fit: fill;
+}
+
+footer{
+  min-width: 960px;
 }
 
 .footer_top{
@@ -100,9 +112,7 @@ footer .item2{
 .footer_profile_inner{
     height: 250px;
     width: 50%;
-    
 }
-
 
 
 th{

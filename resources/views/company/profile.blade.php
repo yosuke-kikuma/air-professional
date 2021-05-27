@@ -31,7 +31,7 @@
             </tr>
             <tr>
                 <th class="text-center">事業内容</th>
-                <td>航空関連(提供事業・交流事業)</td>
+                <td>航空関連(情報提供事業・交流事業)</td>
             </tr>
         </tbody>
     </table>
