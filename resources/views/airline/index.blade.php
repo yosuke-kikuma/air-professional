@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="text-center">
-    <h1>みんなの掲示板</h1>
+        <h1>みんなの掲示板</h1>
     </div>
     <div class="row row-cols-2">
         @foreach ($airlines as $airline)
@@ -18,17 +18,15 @@
                 </div>
           
                 <div class="main_airline_body">
-                    <ul class="list-unstyled mr-2">
                     @foreach ($airline->microposts()->orderBy('created_at', 'desc')->take(10)->get() as $micropost)
-                    <li class="media mb-3">  
-                        <div class="mr-2">
+                    <div class="mb-2">
                         {{$micropost->name}}
-                        </div>
-                        <p>投稿日時 {{$micropost->created_at}}<br>
-                        {!! nl2br(e($micropost->content)) !!}</p>
-                    </li>
+                        <span>投稿日時{{$micropost->created_at}}</span>
+                    </div>
+                    <div class="mb-5">
+                        {!! nl2br(e($micropost->content)) !!}
+                    </div>
                     @endforeach
-                    </ul>
                     
                     {!! Form::open(['route' => 'micropost.store']) !!}
                     {!! Form::hidden('airline_id', $airline->id) !!}

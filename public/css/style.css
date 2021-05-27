@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 header{
-  min-width: 960px;
+  min-width: 991px;
 }
 
 .navbar{
-  padding-left:100px;
+  padding-left: 100px;
 }
 
 
@@ -29,7 +29,8 @@ nav .foot_left a{
 }
 
 .container{
-  min-width: 960px;
+  min-width: 991px;
+  margin: 0 auto;
 }
 
 #main_visual img{
@@ -67,7 +68,7 @@ nav .foot_left a{
 }
 
 footer{
-  min-width: 960px;
+  min-width: 991px;
 }
 
 .footer_top{
@@ -110,8 +111,8 @@ footer .item2{
 }
 
 .footer_profile_inner{
-    height: 250px;
-    width: 50%;
+  height: 250px;
+  width: 50%;
 }
 
 
@@ -120,14 +121,14 @@ th{
 }
 
 .main_airline_title{
-    margin-top: 50px;
-    margin-left: 80px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 70%;
-    border: solid 2px #dadada;
-    display:flex;
-    justify-content: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 70%;
+  border: solid 2px #dadada;
+  display:flex;
+  justify-content: center;
 }
 
 .main_airline_image img{
@@ -145,11 +146,12 @@ th{
 
 
 .main_airline_body{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px; 
-    border: solid 2px #dadada;
-    border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  word-wrap:break-word;
+  border: solid 2px #dadada;
+  border-radius: 3px;
 }
 
 .form{

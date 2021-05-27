@@ -7,7 +7,7 @@
             </div>
         </div>
 
-        <div class="nav_right collapse navbar-collapse" id="nav-bar">
+        <div class="nav_right collapse navbar-collapse">
             <ul class="navbar-nav mr-auto"></ul>
             <ul class="navbar-nav">
             @if (Auth::check())
