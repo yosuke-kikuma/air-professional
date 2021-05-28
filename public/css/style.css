@@ -6,10 +6,11 @@ header{
 
 .navbar{
   padding-left: 100px;
+  padding-right: 100px;
 }
 
 
-nav .head_left{
+nav .navbar_left{
   font-size: 20px;
 }
 
@@ -19,13 +20,13 @@ nav .foot_left a{
   font-weight: 700;
 }
 
-.nav_right{
- margin-right: 100px;
+nav .navbar_right{
+  display: inline-flex;
 }
 
 .nav_item{
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .container{
