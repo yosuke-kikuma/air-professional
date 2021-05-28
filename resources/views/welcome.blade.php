@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row">
-        <div class="offset-1 col-sm-10">
+        <div class="offset-1 col-sm-10 offset-1">
             <div id="main_visual">
                 <img src="images/mainvisual.jpg" alt="main_visual">
             </div>
