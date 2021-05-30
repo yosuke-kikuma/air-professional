@@ -31,9 +31,10 @@ Route::group(['middleware' => ['auth']], function () {
 Route::resource('users', 'UsersController', ['only' => ['index']]);
 Route::resource('article', 'ArticlesController', ['only' => ['create', 'store', 'destroy']]);
 
-Route::resource('airline', 'AirlinesController', ['only' => ['index']]);
-
-Route::resource('micropost', 'MicropostsController', ['only' => ['store']]);
+Route::group(['prefix' => 'airline/{id}'], function () {
+    Route::get('micropost', 'MicropostsController@show');
+    Route::post('micropost', 'MicropostsController@store')->name('micropost.store');
+});
 
 Route::get('company/profile', function () {
     return view('company.profile');

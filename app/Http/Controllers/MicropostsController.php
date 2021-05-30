@@ -8,19 +8,29 @@ use App\Micropost;
 
 class MicropostsController extends Controller
 {
-
-     public function store(Request $request)
+      public function show($id)
     {
-            
-        $id = $request->get('airline_id');
-        $model = \App\Airline::find($id);
-        
+        $airline = Airline::findOrFail($id);
+     
+        $microposts = $airline->microposts()->orderBy('created_at', 'desc')->paginate(10);
+       
+        return view('airline.ana', [
+            'airline' => $airline,
+            'microposts' => $microposts,
+        ]);
+    }
+    
+
+     public function store(Request $request,$id)
+    {
         $request->validate([
-        'name'=> 'required|max:255',
+        'name'=> 'required|max:15',
         'content' => 'required|max:255',
         ]);
+        
+        $airline = Airline::findOrFail($id);
 
-        $model->microposts()->create([
+        $airline->microposts()->create([
         'name' => $request->name,
         'content' => $request->content,
 

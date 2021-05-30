@@ -1,8 +1,8 @@
 <header>
     <nav class="navbar navbar-expand-sm bg-light d-flex justify-content-between">
         <div class="navbar_left">
-        <p>日系の航空業界専門サイト</p>
-            <div class="foot_left">
+            <p>日系の航空業界専門サイト</p>
+        <div class="foot_left">
             <a class="navbar-brand" href="/">AIR Professional</a>
             </div>
         </div>

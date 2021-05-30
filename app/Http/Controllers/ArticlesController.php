@@ -4,31 +4,33 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Article; 
+use App\Article;
+use App\Airline;
 
 class ArticlesController extends Controller
 {
     public function index()
     {
-        $data = [];
         if (\Auth::check()) { 
             $user = \Auth::user();
             $articles = Article::orderBy('id', 'desc')->paginate(8);
 
-            $data = [
-                'user' => $user,
-                'articles' => $articles,
-            ];
+            $airlines = Airline::all();
             
-            return view('welcome', $data);
-        }
+        return view('welcome', [
+            'user' => $user,
+            'articles' => $articles,
+            'airlines' => $airlines,
+        ]);
+    }
         
-        
-        else 
         $articles = Article::orderBy('id', 'desc')->paginate(8);
+        
+        $airlines = Airline::all();
         
         return view('welcome', [
             'articles' => $articles,
+            'airlines' => $airlines,
         ]);
     }
     

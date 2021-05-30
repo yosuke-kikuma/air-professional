@@ -8,12 +8,12 @@ use App\Airline;
 
 class AirlinesController extends Controller
 {
+
    public function index()
     {
-        // メッセージ一覧を取得
         $airlines = Airline::all();
      
-        return view('airline.index', [
+        return view('welcome', [
             'airlines' => $airlines,
         ]);
     }
